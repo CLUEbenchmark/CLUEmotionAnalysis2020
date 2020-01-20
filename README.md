@@ -5,7 +5,7 @@ This dataset in data directory is emotion analysis corpus, with each sample anno
 
 This dataset is from the following paper: 
 
-```Li, Minglei, Yunfei Long, Qin Lu, and Wenjie Li. “Emotion Corpus Construction Based on Selection from Hashtags.” In Proceedings of International Conference on Language Resources and Evaluation (LREC). Portorož, Slovenia, 2016```
+```Minglei Li, Yunfei Long, Qin Lu, and Wenjie Li. “Emotion Corpus Construction Based on Selection from Hashtags.” In Proceedings of International Conference on Language Resources and Evaluation (LREC). Portorož, Slovenia, 2016```
 
 The corpus statistics and lable distribution are as follows:
 
