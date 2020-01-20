@@ -1,7 +1,7 @@
 # CLUEEmotion2020
 CLUE Emotion Analysis Dataset 情感分析数据集
 # Data Description
-This dataset is emotion analysis corpus, with each sample annotated with one emotion label. The label set is *like, happiness, sadness, anger, disgust, fear and surprise*. 
+This dataset in data directory is emotion analysis corpus, with each sample annotated with one emotion label. The label set is *like, happiness, sadness, anger, disgust, fear and surprise*. 
 
 This dataset is from the following paper: 
 
@@ -9,7 +9,7 @@ This dataset is from the following paper:
 
 The corpus statistics and lable distribution are as follows:
 
-<img src="data\label_distribution.png" alt="label_distribution" style="zoom:50%;">
+<img src="data/label_distribution.png" alt="label_distribution" style="zoom:50%;">
 
-The train, valid and test set is split by the ratio of 8:1:1. 
+The train, valid and test set is split by the ratio of 8:1:1 and encoded in UTF-8.
 
