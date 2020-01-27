@@ -13,3 +13,13 @@ The corpus statistics and lable distribution are as follows:
 
 The train, valid and test set is split by the ratio of 8:1:1 and encoded in UTF-8.
 
+# Baseline results
+
+Test results of different classification models on this dataset. 
+
+| Models    | Accuracy | Parameters        |
+| --------- | -------- | ----------------- |
+| BERT-base | 55.0%    | Epoch 3, batch 32 |
+
+
+
