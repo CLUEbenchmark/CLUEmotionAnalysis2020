@@ -941,6 +941,7 @@ class EmotionProcessor(DataProcessor):
   def get_labels(self):
     """See base class."""
     labels = ['happiness', 'like', 'anger', 'sadness', 'fear', 'disgust', 'surprise']
+    return labels
     
 
   def _create_examples(self, lines, set_type):
@@ -948,7 +949,7 @@ class EmotionProcessor(DataProcessor):
     examples = []
     for (i, line) in enumerate(lines):
       guid = "%s-%s" % (set_type, i)
-      text_a = convert_to_unicode(line['sentence'])
+      text_a = convert_to_unicode(line['content'])
       text_b = None
       label = convert_to_unicode(line['label']) if set_type != 'test' else "happiness"
       examples.append(

@@ -23,7 +23,7 @@ if [ ! -d $TASK_NAME ]; then
   echo "makedir $GLUE_DATA_DIR/$TASK_NAME"
 fi
 cd $TASK_NAME
-if [ ! -f "train.txt" ] || [ ! -f "dev.txt" ] || [ ! -f "test.txt" ]; then
+if [ ! -f "train.txt" ] || [ ! -f "valid.txt" ] || [ ! -f "test.txt" ]; then
   rm *
   echo "Pleae download the dataset with the source code from https://github.com/CLUEbenchmark/CLUEmotionAnalysis2020"
 else

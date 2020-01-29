@@ -19,13 +19,23 @@ Test results of different classification models on this dataset.
 
 | Models    | Accuracy | Parameters                         |
 | --------- | -------- | ---------------------------------- |
-| BERT-base | 60.7%    | Epoch 3, batch 32, max_seq_len 120 |
+| BERT-base | 60.7%    | Epoch 3, batch 32, max_seq_len 128 |
 
 # Reproduce the results
 
 The code is based on the original [CLUE source code](https://github.com/CLUEbenchmark/CLUE), which is based on the original Google BERT code, and the pre-trained language model is [BERT Base Chinese version](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip). 
 
 
+
+## Env
+
+```
+tensorflow 1.12
+```
+
+
+
+## Run command
 
 ```
 cd models/bert
